@@ -13,9 +13,9 @@ def main():
                 if marked is True: true_list.append(var)    # variable was marked so it must be true
             print('The marking algorithm terminates after', len(true_list), 'iterations.')
             if len(true_list) > 0:
-                print('These variables must be assigned to true for the formula to be satisfied:', 
+                print('These variables are assigned to true for the formula to be satisfied:', 
                         ', '.join(true_list) + '.') 
-                print('The rest of the variables can be assigned to either true or false.')
+                print('The rest of the variables are assigned false.')
             else:
                 print('None of the variables are required to be assigned to true for the formula to be satisfied.')
                 print('Assigning all of the variables to false will satisfy the formula, for example.')
