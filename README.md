@@ -1,4 +1,5 @@
-# SAT Solver by Vincent Dong and Cedric Blaise
+# SAT Solver 
+## Vincent Dong and Cedric Blaise
 
 To run our solver, cd into the project directory and in the command line write:
 
