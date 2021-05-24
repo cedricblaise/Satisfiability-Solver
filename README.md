@@ -8,7 +8,7 @@ python3 solver.py
 ```
 
 The program will prompt the user to enter a propositional formula, using up to
-7 variables. Use & for and, | for or, and >> for implication. For example:
+7 variables. Use '&' for and, '|' for or, and '>>' for implication. For example:
 
 (p >> q) & ((q & s) >> r ) is a valid user input for a propositional formula.
 
