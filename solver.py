@@ -85,7 +85,6 @@ def is_satisfiable(formula):
 
     # while all the negative literals are marked and the positive literal is not marked do
     while (clause := find_clause(formula, marked)) is not None:
-        # print('Yuh')
         literal = clause[0]
         # if there are no positive literals in the clause return unsatisfiable
         if len(literal) > 1: 
