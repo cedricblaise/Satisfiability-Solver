@@ -17,7 +17,7 @@ def main():
                         ', '.join(true_list) + '.') 
                 print('The rest of the variables can be assigned to either true or false.')
             else:
-                print('None of the variables are required to be assigned true for the formula to be satisfied.')
+                print('None of the variables are required to be assigned to true for the formula to be satisfied.')
                 print('Assigning all of the variables to false will satisfy the formula, for example.')
         else:
             print('Formula is not satisfiable')
