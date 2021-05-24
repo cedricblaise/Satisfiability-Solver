@@ -139,7 +139,7 @@ def get_literals(formula):
     for clause in formula:
         for literal in clause:
             if len(literal) > 1: literal = literal[1]  # convert negative literal to a positive one
-            variable[literal] = False
+            variables[literal] = False
 
     return variables
 
