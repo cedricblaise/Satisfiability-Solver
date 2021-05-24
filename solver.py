@@ -81,7 +81,7 @@ def get_clauses(prop_formula):
 '''
 def is_satisfiable(formula):
     # mark all occurrences of T in formula
-    marked = get_literals(formula)
+    marked = get_variables(formula)
 
     # while all the negative literals are marked and the positive literal is not marked do
     while (clause := find_clause(formula, marked)) is not None:
@@ -133,7 +133,7 @@ def all_marked(clause, marked):
     arguments:
     formula -- a formula encoded as a list of lists
 '''
-def get_literals(formula):
+def get_variables(formula):
     variables = {}
 
     for clause in formula:
