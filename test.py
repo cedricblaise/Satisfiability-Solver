@@ -5,18 +5,18 @@ def sat(prop_formula):
     #Turn prop_formula into CNF
     cnf = str(to_cnf(prop_formula))
 
-    print(cnf)
+    #print(cnf)
 
     #list of clauses
     clauses = cnf.strip().split('&')
 
     #get rid of leading and trailing whitespaces in clauses
     clauses = [clause.strip() for clause in clauses]
-    print(clauses)
+    #print(clauses)
 
     #get rid of parantheses in each clauses
     clauses = [clause.strip('()') for clause in clauses]
-    print(clauses)
+    #print(clauses)
 
     #turn each clause into a list of literals
     clauses_list = []
