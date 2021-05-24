@@ -1,7 +1,13 @@
 # SAT Solver 
 ## Vincent Dong and Cedric Blaise
 
-To run our solver, cd into the project directory and in the command line write:
+To run our solver, first install the SymPy package:
+
+```terminal
+pip3 install sympy
+```
+
+cd into the project directory and in the command line write:
 
 ```terminal
 python3 solver.py
