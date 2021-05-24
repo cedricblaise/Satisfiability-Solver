@@ -4,7 +4,7 @@
 To run our solver, cd into the project directory and in the command line write:
 
 ```terminal
-python3 solver.py [num_spaces]
+python3 solver.py
 ```
 
 The program will prompt the user to enter a propositional formula, using up to
